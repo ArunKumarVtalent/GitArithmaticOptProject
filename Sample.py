@@ -13,3 +13,9 @@ class Sample:
             return a / b
         else:
             return "Error: Division by zero is not allowed."
+
+    def Remainder(self, a, b):
+        if b != 0:
+            return a % b
+        else:
+            return "Error: Division by zero is not allowed."
