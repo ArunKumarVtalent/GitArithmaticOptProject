@@ -9,6 +9,7 @@ print("Addition of two numbers is: ", obj.Add(a, b))
 print("Subtraction of two numbers is: ", obj.Subtract(a, b))
 print("Multiplication of two numbers is: ", obj.Multiply(a, b))
 print("Division of two numbers is: ", obj.Divide(a, b))
+print("Remainder of two numbers is: ", obj.Remainder(a, b))
 
 print("Program executed successfully")
 

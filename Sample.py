@@ -14,5 +14,8 @@ class Sample:
         else:
             return "Error: Division by zero is not allowed."
 
-    def Reminder(self, x, y):
-        return x % y
+    def Remainder(self, a, b):
+        if b != 0:
+            return a % b
+        else:
+            return "Error: Division by zero is not allowed."
