@@ -13,3 +13,6 @@ class Sample:
             return a / b
         else:
             return "Error: Division by zero is not allowed."
+
+    def Reminder(self, x, y):
+        return x % y
